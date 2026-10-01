@@ -1,0 +1,1 @@
+print("今天開始用 Mac 遠端練 Python")
