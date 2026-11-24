@@ -38,7 +38,7 @@ class TestPythonPractice(unittest.TestCase):
                     text=True,
                     check=True,
                 )
-                self.assertEqual(result.stdout.strip().splitlines()[-1], expected)
+                self.assertEqual(result.stdout.strip()[-1], expected)
 
 
 if __name__ == "__main__":
